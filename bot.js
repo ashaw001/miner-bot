@@ -117,12 +117,16 @@ var routineD = setTimeout(function() {routine4(1)}, 241000);
 	var initial1 = setTimeout(function() {strt(1)}, 200);
 	var initial2 = setInterval(function() {strt(1)}, 480000);
  }
-if (message.author.id == 260241663018926080 && message.channel.id == 302953345105002496) {
+if (message.author.id == 272868091028045824 && message.channel.id == 313400507743862794) {
 function upvote1 () {
 	message.react("399191893449113601");}
-var upvote = setTimeout(function() {upvote1(1)}, 800);
-
+var upvote = setTimeout(function() {upvote1(1)}, 2000);
 	} 
+if (message.author.id == 225254925704101888 && message.channel.id == 313400507743862794) {
+function downvote1 () {
+	message.react("399201052613935105");}
+var downvote = setTimeout(function() {downvote1(1)}, 2000);
+	}
 });
 //________________________________________________________________________________________________________________________
 //_______________________________________________________________________________________________________________________
