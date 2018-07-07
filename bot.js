@@ -124,12 +124,12 @@ var upvote = setTimeout(function() {upvote1(1)}, 240000);
 	} 
 if (message.author.id == 283353337292783616 && message.channel.id == 313400507743862794) {
 function upvote1 () {
-	message.react("335141910773628928");}
+	message.react(":upvote:335141910773628928");}
 var upvote = setTimeout(function() {upvote1(1)}, 240000);
 	} 
 if (message.author.id == 225254925704101888 && message.channel.id == 313400507743862794) {
 function downvote1 () {
-	message.react("335141916989456384");}
+	message.react(":downvote:335141916989456384");}
 var downvote = setTimeout(function() {downvote1(1)}, 240000);
 	}
 });
