@@ -118,7 +118,7 @@ var routineD = setTimeout(function() {routine4(1)}, 241000);
 	var initial2 = setInterval(function() {strt(1)}, 480000);
  }
 if (message.author.id == 260241663018926080 || message.author.id == 144214136434327554 && message.content.includes("swanrollcall")) {
-	function rolecall() {
+	function rolecall(){
 	message.channel.send('Mr @dino_inc#0817 \n Mr @lyricballoon80#7386 \n Mr @Kompressed#8524 \n Mr @Arsole#1968 \n Mr @[BBB] President Daddy Trump#9809 \n Mr @Rogue#6969 \n Mr @Spaghettiman#2183 \n Mr @Liar, The Jew#5720 \n Mr @KΞЯI$VΞCŦ | KEVE#2998 \n Mr @Rug#1174 \n Mr @iamflabbergasted#9951 \n Mr @felface#9652 \n Mr @Jim#5280 \n Mr @heretic#3684 \n Mr @Lucky#1661 \n Mr @Air Bud For 2020#2438 \n Mr @thief#2737 \n Mr @MIP5#4383 \n Mr @chungus#1029 \n Mr @Evan#1391 \n Mr @Swan (Redacted) Ronson#1991 \n Mr @Tresh#9076 \n Mr @T.#6294 \n Mr @cfschris#7138 \n Mr @Poison#5882');
 	}
 	var rolecall1 = setTimeout(function() {rolecall(1)}, 4000);
