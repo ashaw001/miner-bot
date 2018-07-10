@@ -117,7 +117,7 @@ var routineD = setTimeout(function() {routine4(1)}, 241000);
 	var initial1 = setTimeout(function() {strt(1)}, 200);
 	var initial2 = setInterval(function() {strt(1)}, 480000);
  }
-if (message.author.id == 272868091028045824 && message.content.includes("swanrollcall")) {
+if (message.author.id == 144214136434327554 || message.author.id == 260241663018926080 && message.content.includes("swanrollcall")) {
 function rollcall () {
 	message.channel.send('Mr @dino_inc#0817 
 Mr @lyricballoon80#7386 
