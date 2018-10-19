@@ -122,11 +122,11 @@ var routineD = setTimeout(function() {routine4(1)}, 241000);
 client.on('message', message =>{
  if (message.author.id == 260241663018926080 && message.content.includes("!casino")) {
 	message.react("👌");  //Acknowledge
-function strt () {
+function casino () {
 message.channel.send('+ca');
 		}
-	var initial1 = setTimeout(function() {strt(1)}, 200);
-	var initial2 = setInterval(function() {strt(1)}, 4500000);
+	var initia1 = setTimeout(function() {casino(1)}, 200);
+	var initia2 = setInterval(function() {casino(1)}, 4500000);
  }}
 
 	
