@@ -116,7 +116,7 @@ var routineD = setTimeout(function() {routine4(1)}, 241000);
 		}
 	var initial1 = setTimeout(function() {strt(1)}, 200);
 	var initial2 = setInterval(function() {strt(1)}, 480000);
- }
+ });
 
 //_________________CASINO______________________________________________________________
 client.on('message', message =>{
@@ -127,7 +127,7 @@ message.channel.send('+ca');
 		}
 	var initia1 = setTimeout(function() {casino(1)}, 200);
 	var initia2 = setInterval(function() {casino(1)}, 4500000);
- }}
+ }});
 
 	
 
