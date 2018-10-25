@@ -144,7 +144,7 @@ function casino () {
 message.channel.send('+ca');
 		}
 function respond () {
-message.channel.send('');
+message.channel.send('`Operation collect still active`');
 		}
 	var initia1 = setTimeout(function() {casino(1)}, 200);
 	var initia1 = setInterval(function() {respond(1)}, 300000);
