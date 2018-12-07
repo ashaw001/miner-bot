@@ -146,7 +146,7 @@ message.channel.send('+ca');
 function respond () {
 var today = new Date();
 var minutes = today.getUTCMinutes();
-message.channel.send('`Operation collect still active` ${minutes}');
+message.channel.send('`Operation collect still active`'{minutes});
 		}
 	var initia1 = setTimeout(function() {casino(1)}, 200);
 	var initia1 = setInterval(function() {respond(1)}, 300000);
