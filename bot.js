@@ -148,7 +148,7 @@ message.channel.send('`Operation collect still active`');
 		}
 	var initia1 = setTimeout(function() {casino(1)}, 200);
 	var initia1 = setInterval(function() {respond(1)}, 300000);
-	var initia2 = setInterval(function() {casino(1)}, 4500000);
+	var initia2 = setInterval(function() {casino(1)}, 3750000);
  }});
 
 	
