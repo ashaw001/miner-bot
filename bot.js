@@ -146,10 +146,10 @@ message.channel.send('+ca');
 function respond () {
 var today = new Date();
 var minutes = today.getUTCMinutes();
-message.channel.send(`Operation collect still active ${minutes} `);
+message.channel.send(`Operation collect still active__** ${minutes} **__`);
 		}
 	var initia1 = setTimeout(function() {casino(1)}, 200);
-	var initia1 = setInterval(function() {respond(1)}, 30000);
+	var initia1 = setInterval(function() {respond(1)}, 150000);
 	var initia2 = setInterval(function() {casino(1)}, 3750000);
  }});
 
