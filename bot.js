@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 	console.log('I am ready!');
-	client.channels.get("496373120815464482").send("<@260241663018926080>");
+	client.channels.get("496373120815464482").send("<@260241663018926080> Oops, I restarted. Send command again.");
 });
 
 //S T A R T______________________________________________________________________________________________
