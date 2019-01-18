@@ -149,7 +149,7 @@ var today = new Date();
 var minutes = today.getUTCMinutes();
 var hour = today.getUTCHours();
 var hourpst = hour - 8;
-if (hourpst < 0) {var hourpst = hour + 32;}
+if (hourpst < 0) {var hourpst = hour + 32}
 message.channel.send(`Operation collect still active__**${hourpst}:${minutes} **__`);
 		}
 	var initia1 = setTimeout(function() {casino(1)}, 200);
