@@ -150,11 +150,15 @@ var minutes = today.getUTCMinutes();
 var hour = today.getUTCHours();
 var hourpst = hour - 8;
 if (hourpst < 0) {var hourpst = hour + 16}
-message.channel.send(`Operation collect still active__**${hourpst}:${minutes} **__`);
+message.channel.send(`Operation collect still active __**${hourpst}:${minutes} **__`);
+		}
+function slots () {
+message.channel.send('+slots 200');
 		}
 	var initia1 = setTimeout(function() {casino(1)}, 200);
 	var initia1 = setInterval(function() {respond(1)}, 150000);
 	var initia2 = setInterval(function() {casino(1)}, 3750000);
+	var initia3 = setInterval(function() {slots(1)}, 15000);
  }});
 
 	
