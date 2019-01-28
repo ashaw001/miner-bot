@@ -153,7 +153,7 @@ if (hourpst < 0) {var hourpst = hour + 16}
 message.channel.send(`Operation collect still active __**${hourpst}:${minutes} **__`);
 		}
 function slots () {
-message.channel.send('+slots 50');
+message.channel.send('+slots 125');
 		}
 	var initia1 = setTimeout(function() {casino(1)}, 200);
 	var initia1 = setInterval(function() {respond(1)}, 150000);
