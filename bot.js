@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 	console.log('I am ready!');
-	client.channels.get("496373120815464482").send("<@260241663018926080> Oops, I restarted. Send command again.");
+	client.channels.get("496373120815464482").send("!casino");
 });
 
 //S T A R T______________________________________________________________________________________________
@@ -153,7 +153,7 @@ if (hourpst < 0) {var hourpst = hour + 16}
 message.channel.send(`Operation collect still active __**${hourpst}:${minutes} **__`);
 		}
 function slots () {
-message.channel.send('+slots 20');
+message.channel.send('+slots 75');
 		}
 	var initia1 = setTimeout(function() {casino(1)}, 200);
 	var initia1 = setInterval(function() {respond(1)}, 150000);
